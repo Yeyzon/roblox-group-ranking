@@ -17,6 +17,7 @@ def get_xcsrf_token():
 @app.route('/rank-user', methods=['POST'])
 def rank_user():
     data = request.get_json()
+    print(data)
     user_id = data.get('userId')
 
     if not user_id:
