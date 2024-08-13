@@ -1,5 +1,5 @@
-from flask import Flask, request, jsonify, os
-import requests
+from flask import Flask, request, jsonify
+import requests, os
 
 app = Flask(__name__)
 
